@@ -1,0 +1,75 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header.header .container-fluid {
+	background-color: #3d3d3d;
+}
+
+.header img {
+	margin: 20px 20px 20px 10px;
+}
+
+.header .brand {
+	color: #fff;
+	font-weight: 600;
+	margin: 5vh 0 0 15px;
+}
+
+section.head .subtitle {
+	margin: 2rem 0 2rem 0;
+	font-weight: 600;
+}
+
+section.content .pilih-kelas {
+	font-weight: 600;
+}
+
+section.content a.kelas-10,
+section.content a.kelas-11,
+section.content a.kelas-12 {
+	text-decoration: none;
+}
+
+section.content a.kelas-10 .card:hover,
+section.content a.kelas-11 .card:hover,
+section.content a.kelas-12 .card:hover {
+	background-color: #0099ff;
+	border: 1px solid #fff;
+	color: #fff;
+	transition: all ease-in-out 0.2s;
+}
+
+.ayah-head,
+.ibu-head,
+.wali-head,
+.periodik,
+.prestasi,
+.done {
+	font-weight: 600;
+}
+
+@media (max-width: 991px) {
+	header.header .col-lg-1,
+	header.header .col-lg-11 {
+		text-align: center;
+		margin: 10px 0 10px 0 !important;
+	}
+
+	header.header .col-lg-1 img {
+		margin: 10px 0 0 0 !important;
+	}
+
+	header.header .col-lg-11 .brand {
+		margin: 0 0 10px 0;
+	}
+
+	/* header.header .col-lg-11 {
+		margin: 10px 0 2vh 0;
+	} */
+}
